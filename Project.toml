@@ -1,0 +1,13 @@
+name = "Counter"
+uuid = "2c72256d-9a8f-41ad-847c-49a38e20aa9c"
+authors = ["Liam Kelly <liam.james.kelly@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
